@@ -93,11 +93,21 @@ textarea {
 header{
   background-color: #0000ff;
   color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+  margin-top: 0;
 }
 
 footer{
   background-color: #222222;
   color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+
 }
 
 ul {
@@ -106,6 +116,7 @@ ul {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
+  margin: 0 auto;
 }
 
 li a {
@@ -113,6 +124,7 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  border-bottom: 1px solid #0000ff;
 }
 
 /* Change the link color on hover */
@@ -123,6 +135,7 @@ li a:hover {
 
 #content{
   width: 80%;
+  margin: 0 auto;
 }
 
 
