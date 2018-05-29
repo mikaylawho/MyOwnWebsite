@@ -90,14 +90,17 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+
 header{
   background-color: #0000ff;
   color: #ffffff;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 6px;
 }
 
-h1{
+h1, ul.main-menu{
   text-align: center;
   margin-top: 0;
 }
@@ -110,37 +113,59 @@ footer{
 
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
-  margin: 0 auto;
-}
-
-li a {
-  display: block;
-  color: #000;
-  padding: 8px 16px;
-  text-decoration: none;
-  border-bottom: 1px solid #0000ff;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
-}
-
 #content{
   width: 80%;
   margin: 0 auto;
 }
 
+ul.main-menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul.main-menu li{
+  text-align: center;
+  background: #fff;
+  margin-top: 6px;
+  margin-bottm: 6px;
+}
+
+ul.main-menu a {
+  font-size: .95em;
+  text-transform: uppercase;
+}
+
+/* Change the link color on hover */
+ul.main-menu a:hover {
+  background-color: #555;
+  color: white;
+}
 
 
 
+/* navigation bar media queries */
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+  .wrap{
+    /*make the contents of div.wrap extend for the full height of the viewport. Makes the footer stay at the bottom of the page.*/
+    min-height: calc(100vh - 22px); /*22px is the height of the footer*/
+  }
+
+  .main-menu li{
+    display: inline;
+    float:right;
+    width:200px;
+  }
+
+}
 
 
 
