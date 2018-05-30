@@ -96,13 +96,18 @@ header{
   background-color: #0000ff;
   color: #ffffff;
   width: 100%;
-  margin: 0 auto;
-  padding-bottom: 6px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 20px;
+}
+
+h1{
+  display:inline-block;
 }
 
 h1, ul.main-menu{
-  text-align: center;
+  text-align: left;
   margin-top: 0;
+  padding-left:20px;
 }
 
 footer{
@@ -122,14 +127,15 @@ ul.main-menu{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
-
 ul.main-menu li{
+  display:block;
   text-align: center;
-  background: #fff;
-  margin-top: 6px;
-  margin-bottm: 6px;
+  background-color: #fff;
+  border: 1px solid;
+  border-bottom-color: blue;
 }
 
 ul.main-menu a {
@@ -149,6 +155,14 @@ ul.main-menu a:hover {
 
 @media only screen and (min-width: 768px) {
 
+  h1{
+    text-align: center;
+    display:block;
+  }
+
+  ul.main-menu{
+    margin: 0 1vh;
+  }
 
 }
 
@@ -159,10 +173,21 @@ ul.main-menu a:hover {
     min-height: calc(100vh - 22px); /*22px is the height of the footer*/
   }
 
-  .main-menu li{
-    display: inline;
+  h1{
+    text-align:left;
+    display:inline-block;
+    margin-top:10px;
+  }
+
+  ul.main-menu{
     float:right;
+  }
+
+  ul.main-menu li {
+    display: inline-block;
     width:200px;
+    margin-top:20px;
+    margin-right:20px;
   }
 
 }
