@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="584a587f-c384-4724-8374-aac69c71b705" name="Default" comment="Fixed some alignment issues, set header and footer to 100% width, centered the page content.">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mikelhensley.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="584a587f-c384-4724-8374-aac69c71b705" name="Default" comment="Fixed some alignment issues, set header and footer to 100% width, centered the page content." />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,8 +26,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="168" column="142" lean-forward="true" selection-start-line="168" selection-start-column="142" selection-end-line="168" selection-end-column="142" />
+            <state relative-caret-position="1227">
+              <caret line="174" column="127" lean-forward="true" selection-start-line="174" selection-start-column="127" selection-end-line="174" selection-end-column="127" />
             </state>
           </provider>
         </entry>
@@ -124,7 +119,7 @@
       <workItem from="1527719991438" duration="53000" />
       <workItem from="1527720092744" duration="182000" />
       <workItem from="1527720463302" duration="54000" />
-      <workItem from="1527722289956" duration="2069000" />
+      <workItem from="1527722289956" duration="2585000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed some alignment issues, set header and footer to 100% width, centered the page content.">
       <created>1527170557561</created>
@@ -137,7 +132,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13213000" />
+    <option name="totallyTimeSpent" value="13729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1234" height="777" extended-state="0" />
@@ -349,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="168" column="142" lean-forward="true" selection-start-line="168" selection-start-column="142" selection-end-line="168" selection-end-column="142" />
+        <state relative-caret-position="1227">
+          <caret line="174" column="127" lean-forward="true" selection-start-line="174" selection-start-column="127" selection-end-line="174" selection-end-column="127" />
         </state>
       </provider>
     </entry>
