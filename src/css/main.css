@@ -93,50 +93,32 @@ textarea {
 
 header{
   color: #ffffff;
-  margin: 0 auto 0 auto;
-  padding-bottom: 20px;
-  background-color: blue;
-  display:block;
-
+  margin: 0 auto;
+  background-color: #006400;
 }
 
 #header-image{
   display: none;
 }
 
-
-h1, ul.main-menu{
+ul.main-menu{
   display: inline-block;
-  text-align: left;
-  margin-top: 0;
-  padding-left:20px;
+  text-align: center;
+  margin: 0 20px;
 }
 
-footer{
-  background-color: #222222;
-  color: #ffffff;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#content{
-  width: 80%;
-  margin: 0 auto;
-}
 
 ul.main-menu{
+  display:inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  align-items: center;
 }
 
 ul.main-menu li{
   display:block;
   text-align: center;
   background-color: #fff;
-  border: 1px solid;
-  border-bottom-color: blue;
 }
 
 ul.main-menu a {
@@ -150,6 +132,19 @@ ul.main-menu a:hover {
   color: white;
 }
 
+#content{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+footer{
+  background-color: #222222;
+  color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .wrap{
   /*make the contents of div.wrap extend for the full height of the viewport. Makes the footer stay at the bottom of the page.*/
   min-height: calc(100vh - 22px); /*22px is the height of the footer*/
@@ -159,22 +154,29 @@ ul.main-menu a:hover {
 
 /* navigation bar media queries */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 320px) {
 
-  h1, ul.main-menu{
-    width:200px;
+
+  ul.main-menu{
+    display:block;
     margin: 0 auto;
+    width: 80%;
+    font-size: 1em;
   }
 
-  #header-image{
-    display:block;
-    width: 768px;
-    height: 99px;
+  h1#page-title{
+    display: block;
+    text-align: center;
+  }
 
+  ul.main-menu li{
+    margin-bottom: 3px;
+    font-size: 1em;
   }
 
   ul.main-menu li a{
     width:200px;
+    padding:10px;
   }
 
 }
@@ -182,23 +184,27 @@ ul.main-menu a:hover {
 @media only screen and (min-width: 992px) {
 
 
-  h1{
-    float:left;
+  h1#page-title{
     display:inline-block;
-    margin-top:10px;
-    clear:left;
+    margin-left: 20px;
+    margin-top: 0;
+    float:left;
   }
 
   ul.main-menu{
     float:right;
+    width: 400px;
   }
 
   ul.main-menu li {
-    display: inline-block;
+    display: block;
     float:left;
-    margin-right:5px;
-    margin-top: 10%;
+    margin-right:10px;
+    margin-top: 10px;
+  }
 
+  ul.main-menu li a{
+    font-size: 1em;
   }
 
 
