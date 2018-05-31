@@ -91,14 +91,19 @@ textarea {
    ========================================================================== */
 
 
-
 header{
-  background-color: #0000ff;
   color: #ffffff;
-  width: 100%;
   margin: 0 auto 0 auto;
   padding-bottom: 20px;
+  background-color: blue;
+  display:block;
+
 }
+
+#header-image{
+  display: none;
+}
+
 
 h1, ul.main-menu{
   display: inline-block;
@@ -112,7 +117,6 @@ footer{
   color: #ffffff;
   width: 100%;
   margin: 0 auto;
-
 }
 
 #content{
@@ -146,6 +150,11 @@ ul.main-menu a:hover {
   color: white;
 }
 
+.wrap{
+  /*make the contents of div.wrap extend for the full height of the viewport. Makes the footer stay at the bottom of the page.*/
+  min-height: calc(100vh - 22px); /*22px is the height of the footer*/
+}
+
 
 
 /* navigation bar media queries */
@@ -157,6 +166,13 @@ ul.main-menu a:hover {
     margin: 0 auto;
   }
 
+  #header-image{
+    display:block;
+    width: 768px;
+    height: 99px;
+
+  }
+
   ul.main-menu li a{
     width:200px;
   }
@@ -165,10 +181,6 @@ ul.main-menu a:hover {
 
 @media only screen and (min-width: 992px) {
 
-  .wrap{
-    /*make the contents of div.wrap extend for the full height of the viewport. Makes the footer stay at the bottom of the page.*/
-    min-height: calc(100vh - 22px); /*22px is the height of the footer*/
-  }
 
   h1{
     float:left;
@@ -190,14 +202,15 @@ ul.main-menu a:hover {
   }
 
 
+  #header-image{
+    display:block;
+    width: 992px;
+    height: 128px;
+
+  }
+
+
 }
-
-
-
-
-
-
-
 
 
 
