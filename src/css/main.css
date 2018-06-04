@@ -98,7 +98,7 @@ textarea {
 }
 
 .main-banner{
-  background: url('src/img/parklands_sky.jpg') no-repeat;
+  background: url('/src/img/parklands_sky.jpg') no-repeat;
   background-size:contain;
   height: 116px;
   width: 900px;
@@ -137,8 +137,21 @@ ul.main-menu a:hover {
 }
 
 #content{
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+}
+
+
+aside{
+  display:inline-block;
+  float:right;
+  color: blue;
+  background-color: #cccccc;
+  width: 20%;
+  padding: 1.5em;
+  text-align: center;
+  margin-left:-1em;
+  margin-top:3em;
 }
 
 
