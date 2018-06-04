@@ -91,15 +91,19 @@ textarea {
    ========================================================================== */
 
 
-header{
+.main-header{
   color: #ffffff;
   margin: 0 auto;
-  background-color: #006400;
+  background-color: blue;
 }
 
-#header-image{
-  display: none;
+.main-banner{
+  background: url('src/img/parklands_sky.jpg') no-repeat;
+  background-size:contain;
+  height: 116px;
+  width: 900px;
 }
+
 
 ul.main-menu{
   display: inline-block;
@@ -143,6 +147,10 @@ footer{
   color: #ffffff;
   width: 100%;
   margin: 0 auto;
+  position:absolute;
+  bottom:0;
+  left:0;
+
 }
 
 .wrap{
