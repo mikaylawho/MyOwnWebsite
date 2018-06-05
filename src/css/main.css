@@ -91,6 +91,14 @@ textarea {
    ========================================================================== */
 
 
+/*---mobile first styles ---*/
+
+h1#page-title{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .main-header{
   color: #ffffff;
   margin: 0 auto;
@@ -102,31 +110,31 @@ textarea {
 .header-image{
   width:100%;
   height:100%;
+  display: none;
 }
-
 
 ul.main-menu{
-  display: inline-block;
-  text-align: center;
-  margin: 0 20px;
-}
-
-
-ul.main-menu{;
   list-style-type: none;
-  margin: 0;
   padding: 0;
+  display:block;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 1em;
 }
 
 ul.main-menu li{
   display:block;
   text-align: center;
   background-color: #fff;
+  padding: 0.5em;
+  margin-bottom: 5px;
 }
 
-ul.main-menu a {
-  font-size: .95em;
+ul.main-menu li a{
+  font-size: 1em;
   text-transform: uppercase;
+  width:200px;
+  padding:10px;
 }
 
 /* Change the link color on hover */
@@ -136,21 +144,18 @@ ul.main-menu a:hover {
 }
 
 #content{
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
 }
 
-
 aside{
-  display:inline-block;
-  float:right;
-  color: blue;
-  background-color: #cccccc;
-  width: 20%;
-  padding: 1.5em;
-  text-align: center;
-  margin: .5em;
+  display: none;
 }
+
+p {
+  font-size: 1.1em;
+}
+
 
 
 footer{
@@ -171,49 +176,32 @@ footer{
 }
 
 
-
 /* navigation bar media queries */
 
-@media only screen and (min-width: 320px) {
+/*---- small tablet styles ----*/
 
+@media only screen and (min-width: 414px) {
 
-  ul.main-menu{
-    display:block;
-    margin: 0 auto;
-    width: 80%;
-    font-size: 1em;
-  }
-
-  h1#page-title{
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  ul.main-menu li{
-    padding: 0.5em;
-    margin-bottom: 5px;
-  }
-
-  ul.main-menu li a{
-    width:200px;
-    padding:10px;
-  }
 
   .header-image{
-    display:none;
+    display:block;
   }
 
-  p {
-    font-size: 1.1em;
-  }
 
-  .content{
-    width:90%;
-    margin:0 auto;
+  aside{
+    display:inline-block;
+    float:right;
+    color: blue;
+    background-color: #cccccc;
+    width: 20%;
+    padding: 1.5em;
+    text-align: center;
+    margin: .5em;
   }
 
 }
+
+/* ---- Tablet styles ---*/
 
 @media only screen and (min-width: 768px) {
 
@@ -257,6 +245,8 @@ footer{
   }
 
 }
+
+/* ---- large screen styles ---- */
 
 @media only screen and (min-width: 1024px) {
 
